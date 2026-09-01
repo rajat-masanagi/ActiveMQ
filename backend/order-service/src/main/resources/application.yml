@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order-service
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: student
+    password: student
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

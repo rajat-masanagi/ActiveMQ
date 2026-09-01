@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# Node/Vite dependencies and build output
+node_modules/
+dist/
+npm-debug.log*
+
+# Temporary verification workspace
+.verify/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+!.env.example
